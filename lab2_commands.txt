@@ -1,6 +1,5 @@
 1-
 // after creating a project 
-git commit -am "add and commit"
 git init
 git add .
 git commit -m "main file"
@@ -13,11 +12,13 @@ git push -u origin main
 git branch test
 git checkout test 
 git init
-git add divid.txt
-git commit -m "first branch file"
+git add filetest.txt
+git commit -m "filetest"
+git push -u origin dev
 
 git branch dev
 git checkout dev 
 git init
-git add reminder.txt
-git commit -m "second branch file"
+git add filedev.txt
+git commit -m "filedev"
+git push -u origin dev
