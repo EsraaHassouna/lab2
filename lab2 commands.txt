@@ -1,0 +1,23 @@
+1-
+// after creating a project 
+git commit -am "add and commit"
+git init
+git add .
+git commit -m "main file"
+git remote add origin git@github.com:EsraaHassouna/lab2.git
+git branch -M main
+git push -u origin main
+
+2-
+//creating 2 branches with 2 files in each 
+git branch test
+git checkout test 
+git init
+git add divid.txt
+git commit -m "first branch file"
+
+git branch dev
+git checkout dev 
+git init
+git add reminder.txt
+git commit -m "second branch file"
